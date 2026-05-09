@@ -1,5 +1,8 @@
 ﻿# Job Advisor Pipeline
 
+Designed for software developers, this app generates you an engaging report that includes **everything**; from praise, to punctual suggestions on how to improve your professional profile, helping you evaluate your chances of getting that job that won’t let you sleep. Just upload your resume and a job post to get started!
+---
+
 
 LLMs used in this application:
 - **Arcee Trinity Large Thinking**
