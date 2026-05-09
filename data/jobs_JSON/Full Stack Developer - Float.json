@@ -1,0 +1,40 @@
+{
+  "job_title": "Full Stack Developer",
+  "company_name": "Float Financial Solutions Inc.",
+  "work_modality": "hybrid",
+  "required_skills": [
+    "Full stack development",
+    "Backend and frontend technologies",
+    "API development",
+    "Product and customer intuition",
+    "Adaptability",
+    "Curiosity"
+  ],
+  "nice_have_skills": [
+    "Python",
+    "Django",
+    "TypeScript",
+    "React",
+    "AWS",
+    "Fintech products"
+  ],
+  "experience_level": "Not listed.",
+  "education_requirements": "Not listed.",
+  "salary": "Not listed.",
+  "key_responsibilities": [
+    "Build and evolve end-to-end product features across backend, frontend, and APIs",
+    "Partner closely with Product and Design to deliver simple, intuitive user experiences",
+    "Translate customer needs into thoughtful technical solutions that scale",
+    "Make principled trade-offs between speed, quality, and long-term maintainability",
+    "Own features in production, including iteration, reliability, and improvement over time",
+    "Contribute to shared standards, tooling, and practices that raise engineering quality",
+    "Work within a small, empowered squad with clear ownership over a product vertical."
+  ],
+  "relevant_data": [
+    "Float Financial Solutions is a Canadian fintech company providing an all-in-one business finance platform for corporate spending.",
+    "The company employs over 100 people and is recognized as one of Canada\u2019s fastest-growing companies.",
+    "Float helps Canadian businesses streamline financial operations, optimize cash flow, and offers services like corporate cards and expense management.",
+    "The company is backed by investors including Goldman Sachs Alternatives and OMERS Ventures, with a significant Series B funding round of $70 million.",
+    "Float has a strong focus on company culture, emphasizing feedback, ownership, and collaboration."
+  ]
+}

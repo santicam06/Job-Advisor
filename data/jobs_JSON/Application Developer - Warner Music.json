@@ -1,0 +1,40 @@
+{
+  "job_title": "Application Engineer",
+  "company_name": "Warner Music Group",
+  "work_modality": "remote",
+  "required_skills": [
+    "Java",
+    "Python",
+    "Angular",
+    "React",
+    "Relational databases (Oracle, PostgreSQL)",
+    "SQL queries"
+  ],
+  "nice_have_skills": [
+    "Infrastructure as Code (IaC)",
+    "AWS",
+    "Incident management",
+    "Performance and scalability testing"
+  ],
+  "experience_level": "Not listed.",
+  "education_requirements": "Not listed.",
+  "salary": "$63,000 - $130,000 CAD",
+  "key_responsibilities": [
+    "Write clean, maintainable code in Java or Python",
+    "Upgrade application frameworks",
+    "Debug and resolve systems errors",
+    "Monitor production systems and improve observability",
+    "Lead root cause analyses for outages",
+    "Conduct performance and scalability testing",
+    "Partner with business users to troubleshoot issues",
+    "Execute manual workflows and automate them",
+    "Participate in the on-call rotation",
+    "Enhance CI/CD pipelines",
+    "Contribute to and maintain team knowledge bases"
+  ],
+  "relevant_data": [
+    "Warner Music Group operates in the entertainment industry with approximately 5,500 employees.",
+    "Recently announced plans to make 600 employees redundant and was named to TIME's list of the 100 Most Influential Companies.",
+    "Known for its strong culture and work-life balance, fostering creativity and innovation, recognized for supportive environment and career growth opportunities."
+  ]
+}

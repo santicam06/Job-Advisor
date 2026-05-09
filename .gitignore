@@ -27,7 +27,9 @@ reports/*.md
 src/advisor/user_jobpost_JSON/*
 !src/advisor/user_jobpost_JSON/.gitkeep
 
-jobs_postings/original
+jobs_postings_original
 
 
+# Agents
+GEMINI.md
 

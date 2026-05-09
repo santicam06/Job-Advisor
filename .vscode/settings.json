@@ -1,0 +1,5 @@
+{
+  "editor.minimap.enabled": true,
+  "editor.minimap.showSlider": "mouseover",
+  "editor.minimap.renderCharacters": true
+}

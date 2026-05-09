@@ -1,0 +1,25 @@
+{
+  "job_title": "Software Engineer",
+  "company_name": "redcan-AI",
+  "work_modality": "remote",
+  "required_skills": [
+    "AI development methodologies",
+    "tool-calling & prompting",
+    "complex business process automation"
+  ],
+  "nice_have_skills": [
+    "experience with LLM tools",
+    "proficiency in Cursor, Claude Code, Replit"
+  ],
+  "experience_level": "Not listed.",
+  "education_requirements": "Not listed.",
+  "salary": "Not listed.",
+  "key_responsibilities": [
+    "Contribute across the stack with hands-on exposure to AI tools",
+    "Automate deployment and configuration of business processes"
+  ],
+  "relevant_data": [
+    "Redcan.ai is based in Canada and focuses on agentic AI products.",
+    "The company helps customers scale their deployment capabilities and automate complex business processes."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "job_title": "Software Developer 1",
+  "company_name": "Intuit",
+  "work_modality": "Not listed.",
+  "required_skills": [
+    "Computer Science principles",
+    "data structures",
+    "algorithms",
+    "object-oriented programming",
+    "Java",
+    "Python",
+    "C++",
+    "JavaScript",
+    "software development tools",
+    "version control systems (Git)",
+    "problem-solving",
+    "analytical skills",
+    "communication",
+    "interpersonal skills"
+  ],
+  "nice_have_skills": [
+    "Internship experience in software development",
+    "experience with agile development methodologies",
+    "familiarity with cloud platforms (AWS, Azure, GCP)",
+    "understanding of database concepts and SQL"
+  ],
+  "experience_level": "0 - 2 years",
+  "education_requirements": "Bachelor's degree in Computer Science, Software Engineering, or a related field",
+  "salary": "Not listed.",
+  "key_responsibilities": [
+    "Participate in the full software development lifecycle",
+    "Write clean, efficient, and well-documented code",
+    "Collaborate to troubleshoot and resolve software defects",
+    "Contribute to code reviews",
+    "Learn and apply new technologies and methodologies",
+    "Assist in the creation of technical documentation",
+    "Participate in team meetings and discussions"
+  ],
+  "relevant_data": [
+    "Intuit serves approximately 100 million customers worldwide and focuses on AI-driven technology for financial challenges.",
+    "The company emphasizes a culture of mobility and career growth, supporting both vertical and lateral advancement opportunities.",
+    "Intuit is recognized for good compensation, benefits, and strong work-life balance but has some concerns about internal politics and work-life balance declining in certain teams.",
+    "Currently hiring for various IT roles, including engineering and data positions, many with remote work options."
+  ]
+}

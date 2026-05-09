@@ -1,0 +1,38 @@
+{
+  "job_title": "Full Stack Software Developer I",
+  "company_name": "Intuit",
+  "work_modality": "Not listed.",
+  "required_skills": [
+    "Foundational understanding of software engineering principles and object-oriented programming",
+    "Experience (academic or professional) with at least one object-oriented language such as Ruby, Java, C#, Python, or C++",
+    "Basic understanding of the Software Development Life Cycle (SDLC)",
+    "Familiarity with web services (REST preferred)",
+    "Exposure to unit testing and testing fundamentals (TDD is a plus)",
+    "Strong problem-solving skills and attention to detail",
+    "Effective verbal and written communication skills"
+  ],
+  "nice_have_skills": [
+    "Eagerness to learn, take feedback, and grow within a collaborative engineering environment",
+    "Positive, helpful attitude and willingness to take ownership of assigned tasks"
+  ],
+  "experience_level": "0 - 2 years",
+  "education_requirements": "BS in Computer Science or related technical field (or equivalent practical experience)",
+  "salary": "$99,000 - 133,500 CAD",
+  "key_responsibilities": [
+    "Contribute to the delivery of high-quality web software including requirements clarification, design discussions, coding, testing, and documentation",
+    "Spend the majority of time (90+%) hands-on coding, learning, and improving implementation skills",
+    "Participate in code reviews and incorporate feedback to improve code quality and engineering practices",
+    "Assist in resolving defects/bugs identified during QA testing, pre-production, and production",
+    "Collaborate effectively with team members to deliver against sprint commitments",
+    "Work cross-functionally with product management, QA/QE, and other engineering teams to support shared goals",
+    "Follow established engineering processes, standards, and best practices",
+    "Demonstrate a commitment to team success and positive team dynamics",
+    "Show curiosity and passion for growing technical skills in service of customers",
+    "Participate in Agile ceremonies (standups, sprint planning, retrospectives) and contribute actively"
+  ],
+  "relevant_data": [
+    "Intuit is a global financial technology platform with approximately 100 million customers worldwide.",
+    "The company employs around 18,000 people and is valued at $107 billion.",
+    "Intuit emphasizes a people-first culture and innovation in AI technology. Employees value the work-life balance, competitive compensation, and unique perks, though some have noted challenges with internal politics and maintaining that balance."
+  ]
+}

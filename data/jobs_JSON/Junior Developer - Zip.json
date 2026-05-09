@@ -1,0 +1,35 @@
+{
+  "job_title": "Software Engineer, New Grad (2026 Start)",
+  "company_name": "Zip",
+  "work_modality": "hybrid",
+  "required_skills": [
+    "Experience with web applications",
+    "API development",
+    "Python",
+    "Javascript",
+    "TypeScript",
+    "React",
+    "GraphQL"
+  ],
+  "nice_have_skills": [
+    "Ability to quickly learn new frameworks",
+    "architecture patterns",
+    "programming languages"
+  ],
+  "experience_level": "0 - 2 years",
+  "education_requirements": "Pursuing a BS or MS in Computer Science or related technical field",
+  "salary": "CA$121,000 - CA$126,000",
+  "key_responsibilities": [
+    "Design and build highly reliable and resilient products and features",
+    "Work closely with cross functional product and customer-facing teams to understand requirements and ship thoughtful solutions",
+    "Write high-quality, extensible, and maintainable code",
+    "Design and build scalable frontend applications and components",
+    "Design and build APIs to drive existing and new features for a web-based application"
+  ],
+  "relevant_data": [
+    "Zip is a business/productivity software company with 700 employees, valued at $2.2 billion as of October 2024.",
+    "Zip's AI platform has saved customers over $6 billion and processed hundreds of billions in spend.",
+    "Employees rate Zip as having a collaborative and supportive work environment with good pay, though some reviews mention an under-average culture rating. 70% of employees would recommend working at Zip.",
+    "Zip encourages diverse candidates to apply and is committed to building an inclusive workspace."
+  ]
+}

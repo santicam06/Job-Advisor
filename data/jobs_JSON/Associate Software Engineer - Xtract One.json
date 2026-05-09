@@ -1,0 +1,42 @@
+{
+  "job_title": "Associate Software Engineer",
+  "company_name": "Xtract One",
+  "work_modality": "hybrid",
+  "required_skills": [
+    "Python",
+    "Java",
+    "C++",
+    "problem-solving",
+    "analytical skills",
+    "communication",
+    "teamwork",
+    "version control systems",
+    "software design principles",
+    "web development frameworks and technologies",
+    "SQL",
+    "NoSQL",
+    "agile methodology",
+    "waterfall methodology"
+  ],
+  "nice_have_skills": [],
+  "experience_level": "0 - 2 years",
+  "education_requirements": "Bachelor\u2019s degree in Computer Science, Software Engineering, or a related field",
+  "salary": "$72,000-$88,000 CAD",
+  "key_responsibilities": [
+    "Collaborate with team members to comprehend project requirements and contribute to the development of software and hardware applications.",
+    "Write clean, maintainable, and efficient code following best practices.",
+    "Engage in the entire software and hardware development lifecycle, including coding, testing, debugging, and deployment.",
+    "Create unit tests and participate in integration testing to ensure quality solutions.",
+    "Analyze and troubleshoot defects in software, providing effective solutions.",
+    "Document code and contribute to technical documentation.",
+    "Work closely with cross-functional teams, including product managers, designers, and QA engineers.",
+    "Participate in code reviews to improve understanding of code quality and standards.",
+    "Stay informed about industry trends and best practices to enhance skills."
+  ],
+  "relevant_data": [
+    "Xtract One Technologies is a Canadian technology company specializing in threat detection and security solutions using AI.",
+    "The company has 74 employees and generates approximately $12.4 million in revenue.",
+    "Xtract One secured the CMT Awards in April 2024 for ensuring a safe event and was selected by the University of Michigan Health-West to enhance security.",
+    "Employee reviews indicate a positive work culture with a friendly and supportive environment, though some feedback on management is mixed."
+  ]
+}

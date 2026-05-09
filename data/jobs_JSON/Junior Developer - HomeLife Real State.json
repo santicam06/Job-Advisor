@@ -1,0 +1,41 @@
+{
+  "job_title": "Junior Developer",
+  "company_name": "HomeLife Realty Services",
+  "work_modality": "Not listed.",
+  "required_skills": [
+    "TypeScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "PostgreSQL",
+    "MongoDB",
+    "bug fixing",
+    "writing technical documentation",
+    "strong communication skills"
+  ],
+  "nice_have_skills": [
+    "Experience with Figma",
+    "writing product requirement documents"
+  ],
+  "experience_level": "0 - 2 years",
+  "education_requirements": "Not listed.",
+  "salary": "CA$50,000 - CA$60,000 annually",
+  "key_responsibilities": [
+    "Work with TypeScript, HTML/CSS, and Tailwind CSS to improve and maintain front-end functionality.",
+    "Contribute to back-end updates in Node.js-based applications where needed.",
+    "Write and optimize database queries using PostgreSQL and MongoDB.",
+    "Build and maintain Python scripts for scraping, automation, and AI-supported workflows.",
+    "Support the development and refinement of AI-driven tools, automations, and integrations.",
+    "Create wireframes or mockups in Figma for responsive web pages and feature updates.",
+    "Write PRDs and clear documentation to support development and implementation.",
+    "Fix bugs and make updates within existing web application codebases.",
+    "Collaborate with internal non-technical stakeholders to understand needs and identify opportunities for process improvement and automation.",
+    "Help translate business needs into clear, actionable technical deliverables."
+  ],
+  "relevant_data": [
+    "HomeLife Realty Services is a real estate company with 51-200 employees, founded in 1985.",
+    "Recently, they launched a nationwide cash back program for buyers, sellers, and renters to enhance client satisfaction.",
+    "The company has an employee rating of 3.9 out of 5 stars, indicating positive employee sentiment, with a 60% recommendation rate."
+  ]
+}

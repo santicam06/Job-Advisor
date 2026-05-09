@@ -1,0 +1,31 @@
+{
+  "job_title": "Software Developer (Entry Level)",
+  "company_name": "Konrad",
+  "work_modality": "hybrid",
+  "required_skills": [
+    "Strong command of programming and computer science concepts",
+    "Understanding of web application development",
+    "Knowledge of core web principles (HTTP, the DOM, SSL, web servers)",
+    "Fluency with databases (schema design, querying, optimization)",
+    "Great interpersonal skills",
+    "Proactive personality"
+  ],
+  "nice_have_skills": [
+    "Courses taken at BrainStation"
+  ],
+  "experience_level": "0 - 2 years",
+  "education_requirements": "Graduated from a Computer Science, Software Engineering, or similar program in a University or College",
+  "salary": "$85,000 to $95,000",
+  "key_responsibilities": [
+    "Write maintainable, testable, and performant software",
+    "Participate in code reviews",
+    "Perform extensive testing to ensure high quality software",
+    "Research new technology and tools"
+  ],
+  "relevant_data": [
+    "Konrad is a digital agency and product innovation firm specializing in strategy, design, and technology services.",
+    "The company has 501-1,000 employees and operates in the software development industry.",
+    "Konrad offers various employee benefits including a mentorship program, health and wellness benefits, retirement planning, and flexible working hours.",
+    "The company encourages a culture of learning and development."
+  ]
+}
