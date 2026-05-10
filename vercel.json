@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/contribute.py": {
-      "runtime": "vercel-python@0.1.1"
+      "runtime": "python3.12"
     }
   },
   "rewrites": [
@@ -9,5 +9,5 @@
       "source": "/api/contribute",
       "destination": "api/contribute.py"
     }
-  ] 
+  ]
 }
