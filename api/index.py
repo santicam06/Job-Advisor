@@ -1,4 +1,3 @@
-# api/contribute.py
 from http.server import BaseHTTPRequestHandler
 import json
 import os
