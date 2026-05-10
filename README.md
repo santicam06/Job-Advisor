@@ -57,6 +57,7 @@ Always **copy** the template. Do not rename `.env.example` directly, as it must 
    - Open the newly created `.env` file and fill in your API keys (e.g., `OPENROUTER_API_KEY, ...`) and adjust optional configuration settings as needed. The application **will not** function without a valid `.env` file in the **application root** (`./Job-Advisor`).
 
 6. **Main Directories Glossary**:
+   - `./api/`: Vercel proxy integration logic for user contributions.
    - `./data/`: Contains subdirectories for input documents and main database.
    - `./reports/`: Target directory for LLM-generated Markdown reports.
    - `./src/`: Scripts with applications behaviour and system prompts.
