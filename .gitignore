@@ -1,5 +1,12 @@
-# Environment variables (Sensitive)
+# Environments
 .env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # Python artifacts
 __pycache__/
