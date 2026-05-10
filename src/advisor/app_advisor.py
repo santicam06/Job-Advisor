@@ -173,7 +173,7 @@ def contribute_database(json_path: Path) -> None:
             except (subprocess.CalledProcessError, FileNotFoundError) as git_err:
                 print(f"[DEBUG] Git sync failed: {git_err}", file=sys.stderr)
 
-            print("Thanks for contributing to our application, good luck for your job seeking! 💪")
+            print("\nThanks for contributing to our application, good luck for your job seeking! 💪")
 
         elif response.status_code >= 500:
             print(f"[DEBUG] Proxy returned error {response.status_code}: {response.text}", file=sys.stderr)
@@ -437,7 +437,7 @@ def app_advisor():
         while True:
             user_choice = input(
                 "The application report was succesfully written to the reports folder.\n"
-                "Would you like us to collect your provided job posting PDF for enrichment purposes of our database? (yes/no)\n"
+                "Would you like us to collect your provided job posting PDF for enrichment purposes of our database? (yes/no)\n> "
             ).strip().lower()
 
             if user_choice == "yes":
