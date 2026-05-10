@@ -14,18 +14,15 @@ class IndentedStderr:
 
     # print(..., file=sys.stderr) calls write() under the hood.
     def write(self, text: str) -> int:
-        written = 0
-        for ch in text:
-            if self._at_line_start and ch != "\n":
+        lines = text.splitlines(keepends=True)
+        for line in lines:
+            if self._at_line_start and line != "\n":
                 prefix = " " * self.indent
                 self.stream.write(prefix)
-                written += len(prefix)
-                self._at_line_start = False
-            self.stream.write(ch)
-            written += 1
-            if ch == "\n":
-                self._at_line_start = True
-        return written
+            
+            self.stream.write(line)
+            self._at_line_start = line.endswith("\n")
+        return len(text)
 
     # flush() is invoked by print(..., flush=True) or on stream shutdown.
     def flush(self) -> None:

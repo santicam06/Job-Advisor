@@ -1,4 +1,4 @@
-import os, sys, shutil, json, atexit, re, time, requests
+import os, sys, shutil, json, atexit, re, time, requests, subprocess
 from pathlib import Path
 from src.extract.jobs_extract.jobs_reader import parse_pdf, JobPosting
 
@@ -164,6 +164,15 @@ def contribute_database(json_path: Path) -> None:
         # Check the HTTP response status.
         # 200 (OK) or 201 (Created) means the Vercel Proxy successfully received the data.
         if response.status_code in [200, 201]:
+            
+            # Synchronize the local database with the new cloud contribution
+            try:
+                print("[DEBUG] Synchronizing local database...", file=sys.stderr)
+                # --quiet keeps the terminal clean
+                subprocess.run(["git", "pull", "--quiet"], check=True, cwd=BASE_DIR)
+            except (subprocess.CalledProcessError, FileNotFoundError) as git_err:
+                print(f"[DEBUG] Git sync failed: {git_err}", file=sys.stderr)
+
             print("Thanks for contributing to our application, good luck for your job seeking! 💪")
 
         elif response.status_code >= 500:
