@@ -54,7 +54,7 @@ class FilteredStderr:
         self._buffer = ""
         self.stream.flush()
 
-# This class handles the incoming network requests from your users' CLI
+# This class handles the incoming network requests 
 class handler(BaseHTTPRequestHandler):
 
     # Handles the HTTP POST request sent by app_advisor.py

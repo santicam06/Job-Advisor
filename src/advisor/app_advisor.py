@@ -422,8 +422,8 @@ def app_advisor():
         end_section()
 
 
+        # Final: Ask user whether to add their job posting to the database for enrichment.
         start_section("User Contribution")
-        # Ask user whether to add their job posting to the database for enrichment.
         existing_db_copy = JOBS_JSON_DIR / f"{Path(user_jobpost_path).stem}.json"
         while True:
             user_choice = input(
