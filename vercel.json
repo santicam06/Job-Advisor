@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/contribute.py": {
-      "runtime": "@vercel/python@latest"
-    }
-  },
   "rewrites": [
     {
       "source": "/api/contribute",
