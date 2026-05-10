@@ -156,6 +156,7 @@ class handler(BaseHTTPRequestHandler):
             self.wfile.write(b"Contribution failed: An internal error occurred in the proxy server.")
 
 
+
     # Handles the HTTP GET request 
     # All DEBUG logs in this function will be seen in the Vercel (cloud) dashboard
     def do_GET(self):
