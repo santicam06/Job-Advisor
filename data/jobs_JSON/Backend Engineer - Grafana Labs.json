@@ -1,0 +1,33 @@
+{
+  "job_title": "Backend Engineer",
+  "company_name": "Grafana Labs",
+  "work_modality": "remote",
+  "required_skills": [
+    "Java",
+    "Python",
+    "Golang",
+    "API development",
+    "Microservices architecture"
+  ],
+  "nice_have_skills": [
+    "Kubernetes",
+    "Docker",
+    "Cloud platforms"
+  ],
+  "experience_level": "3 - 5 years",
+  "education_requirements": "Bachelor's degree in Computer Science or equivalent experience",
+  "salary": "Not listed.",
+  "key_responsibilities": [
+    "Design and implement back-end systems",
+    "Collaborate with front-end developers",
+    "Optimize applications for maximum speed and scalability",
+    "Analyze and improve system performance",
+    "Maintain code quality and organization"
+  ],
+  "relevant_data": [
+    "Grafana Labs specializes in observability software with 25 million users and 7,000+ customers.",
+    "The company is a part of the open-source software community, providing observability tools that are widely used in IT systems.",
+    "It operates as a fully remote company with over 1,400 employees across 40+ countries.",
+    "Grafana Labs recently raised $270 million in a Series D funding round."
+  ]
+}
