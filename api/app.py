@@ -87,7 +87,7 @@ class handler(BaseHTTPRequestHandler):
             # Parse the user's contribution data
             content_length = int(self.headers.get('Content-Length', 0))
             raw_data = self.rfile.read(content_length)
-            # Transform raw JSON into Python dict
+            # Transform raw bytes from the JSON contribution into Python dict
             payload : dict = json.loads(raw_data)
 
             file_name = payload.get('file_name')
@@ -113,6 +113,8 @@ class handler(BaseHTTPRequestHandler):
 
             # Call the GitHub API
             print(f"[DEBUG] Proxying contribution to GitHub: {owner}/{repo}", file=sys.stderr)
+            
+            # Do request
             gh_response = requests.put(
                 github_url,
                 headers={
@@ -152,3 +154,89 @@ class handler(BaseHTTPRequestHandler):
             self.send_response(500)
             self.end_headers()
             self.wfile.write(b"Contribution failed: An internal error occurred in the proxy server.")
+
+
+    # Handles the HTTP GET request 
+    # All DEBUG logs in this function will be seen in the Vercel (cloud) dashboard
+    def do_GET(self):
+
+        # Set up logging based on the environment variable
+        # This allows the administrator to see detailed logs in the Vercel dashboard
+        verbose_mode = os.environ.get("APP_VERBOSE") == "1"
+        if verbose_mode:
+            sys.stderr = IndentedStderr(sys.stderr)
+        else:
+            sys.stderr = FilteredStderr(sys.stderr)
+
+        # GitHub configuration macros
+        token = os.environ.get("GITHUB_PAT")
+        owner = os.environ.get("GITHUB_OWNER")
+        repo = os.environ.get("GITHUB_REPO")
+
+        try:
+            # Validate that the server has the necessary credentials
+            if not token or not owner or not repo:
+                print(f"[DEBUG] configuration error: PAT={bool(token)}, Owner={owner}, Repo={repo}", file=sys.stderr)
+
+                # Send a polite error to the end user
+                self.send_response(500)
+                self.end_headers()
+                self.wfile.write(b"Fetch failed: GitHub credentials may be missing.")
+                return
+
+            print(f"[DEBUG] Processing GET request for database: {owner}/{repo}", file=sys.stderr)
+
+            # GitHub API endpoint to list contents of the directory
+            github_url = f"https://api.github.com/repos/{owner}/{repo}/contents/data/jobs_JSON"
+
+            # Do request
+            gh_response = requests.get(
+                github_url,
+                headers={
+                    "Authorization": f"token {token}",
+                    "Accept": "application/vnd.github.v3+json"
+                },
+                timeout=15
+            )
+
+            # Send response back to user's CLI
+            if gh_response.status_code == 200:
+                print(f"[DEBUG] GitHub database fetched correctly.", file=sys.stderr)
+
+                # Parse the response from GitHub
+                contents = gh_response.json()
+
+                # Filter and format the data to return only necessary info about JSON files
+                files_metadata = []
+                if isinstance(contents, list):
+                    for item in contents:
+                        if item.get("type") == "file" and item.get("name", "").endswith(".json"):
+                            files_metadata.append({
+                                "name": item.get("name"),
+                                "path": item.get("path"),
+                                "size": item.get("size"),
+                                "download_url": item.get("download_url")
+                            })
+
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.end_headers()
+                # GET response is the database JSON parsed per each Job Posting file 
+                self.wfile.write(json.dumps(files_metadata, indent=2).encode('utf-8'))
+
+            else:
+                # Log exact GitHub API response for administrator debugging
+                print(f"[DEBUG] GET request Error ({gh_response.status_code}): {gh_response.text}", file=sys.stderr)
+
+                self.send_response(500)
+                self.end_headers()
+                self.wfile.write(f"Fetch failed: GitHub API returned {gh_response.status_code}".encode('utf-8'))
+
+        except Exception as e:
+            # Log the exact exception object for the administrator
+            print(f"[DEBUG] Critical Proxy Error: {e}", file=sys.stderr)
+
+            # Send general message to the user
+            self.send_response(500)
+            self.end_headers()
+            self.wfile.write(b"Fetch failed: An internal error occurred in the proxy server.")
