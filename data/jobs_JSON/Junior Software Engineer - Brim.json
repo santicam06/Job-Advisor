@@ -1,0 +1,30 @@
+{
+  "job_title": "Junior Software Engineer",
+  "company_name": "Brim Financial",
+  "work_modality": "remote",
+  "required_skills": [
+    "RESTful APIs",
+    "MySQL",
+    "JSON",
+    "third-party API integrations",
+    "AI coding tools",
+    "fintech knowledge"
+  ],
+  "nice_have_skills": [
+    "Understanding of credit card systems",
+    "Interest in payments and rewards programs"
+  ],
+  "experience_level": "0 - 2 years",
+  "education_requirements": "Not listed.",
+  "salary": "Compensation varies based on skills and experience",
+  "key_responsibilities": [
+    "Build and maintain services and RESTful APIs that power our credit card and payments platform",
+    "Work across the full stack from backend services and databases to interfaces for partners",
+    "Investigate and resolve bugs in existing systems"
+  ],
+  "relevant_data": [
+    "Brim Financial is a licensed and certified credit card issuer in North America",
+    "They provide a credit-card-as-a-service (CCaaS) platform for banks and fintechs",
+    "The company encourages using modern tooling and offers a culture of growth while working alongside senior engineers"
+  ]
+}
