@@ -56,7 +56,7 @@ Always **copy** the template. Do not rename `.env.example` directly, as it must 
    - `./api/`: Vercel proxy integration logic for user contributions.
    - `./data/`: Contains subdirectories for input documents and main database.
    - `./reports/`: Target directory for LLM-generated Markdown reports.
-   - `./src/`: Scripts with applications behaviour and system prompts.
+   - `./src/`: Scripts with application's behaviour and system prompts.
 > [!NOTE]
 The content inside `./src/advisor/user_jobpost_JSON/`, `./reports/` and `./data/` is Git ignored (except for `./data/jobs_JSON/` which is the **database**) as it is private information that you should manage locally, you can change the `./.gitignore` file at your convenience.
    
