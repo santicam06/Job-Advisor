@@ -65,7 +65,7 @@ The content inside `./src/advisor/user_jobpost_JSON/`, `./reports/` and `./data/
 ### Troubleshooting
 - **Missing API Key**: Ensure `OPENROUTER_API_KEY/TAVILY_API_KEY` are correctly set in your `.env` file.
 - **Dependency Issues**: If running in a new environment, ensure you have executed the commands in **Step 3**.
-- **Virtual Environment Not Activated**: If you receive "module not found" errors, ensure your virtual environment is activated **(Step 2)**.
+- **Virtual Environment Not Activated**: If you receive "module not found" errors, ensure your virtual environment is activated **(Step 3)**.
 - **Absolute Paths**: For the Main Application (Job Advisor), ensure you provide an **absolute path** to the PDF file (instructions below). 
 
 
@@ -154,7 +154,7 @@ If you don't want to use your own resume you can look for sample resumes PDFs on
 This app receives the path to a **job posting PDF** that you provide (it can be whichever you want). 
    
 > [!TIP]
-If you need help converting an online job posting (e.g. from LinkedIn) into a PDF format you can save the page as a PDF using `CTRL + P` (or respective shortcut). Alternatively try online converters such as: [W2P](https://www.web2pdfconvert.com/). 
+If you need help converting an online job posting (e.g. from LinkedIn) into a PDF format you can save the job's page as a PDF using `CTRL + P` (or respective shortcut). Alternatively try online converters such as: [W2P](https://www.web2pdfconvert.com/). 
 
 Save the PDF **locally** in your computer as: `[Role] - [Employer Name]` (e.g. Full Stack Developer - Tech & Geeks Inc.), this will help you visualize your files in a clean and ordered way.
 
