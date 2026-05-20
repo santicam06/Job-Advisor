@@ -40,7 +40,7 @@ From this point on, make sure that your present working directory on your termin
      ```
 
 5. **Environment Configuration**:
-   - Create a local `.env` file by copying the template file `.env.example`. This file contains all required API keys and configuration macros for the application, read it carefully:
+   - Create a local `.env` file by copying the template file `.env.example`. This file contains all required API keys and configuration macros for the application, read and set it carefully:
    ```powershell
      # On Windows (Command Prompt)
      copy .env.example .env
