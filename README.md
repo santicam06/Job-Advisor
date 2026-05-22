@@ -1,9 +1,5 @@
 ﻿# Job Advisor Pipeline
 
-Designed for software developers, this app generates you an engaging report that includes **everything**; from praise, to punctual suggestions on how to improve your professional profile, helping you evaluate your chances of getting that job that won’t let you sleep. Just upload your resume and a job post to get started!
-
-
-
 LLMs used in this application:
 - [Arcee Trinity Large Thinking](https://openrouter.ai/arcee-ai/trinity-large-thinking)
 - [Cohere Command R+ (08-2024)](https://openrouter.ai/cohere/command-r-plus-08-2024)
@@ -44,7 +40,7 @@ From this point on, make sure that your present working directory on your termin
      ```
 
 5. **Environment Configuration**:
-   - Create a local `.env` file by copying the template file `.env.example`. This file contains all required API keys and configuration macros for the application, read it carefully:
+   - Create a local `.env` file by copying the template file `.env.example`. This file contains all required API keys and configuration macros for the application, read and set it carefully:
    ```powershell
      # On Windows (Command Prompt)
      copy .env.example .env
@@ -58,18 +54,18 @@ Always **copy** the template. Do not rename `.env.example` directly, as it must 
 
 6. **Main Directories Glossary**:
    - `./api/`: Vercel proxy integration logic for user contributions.
-   - `./data/`: Contains subdirectories for input documents and main database.
+   - `./data/`: Contains subdirectories for input documents and application's database.
    - `./reports/`: Target directory for LLM-generated Markdown reports.
-   - `./src/`: Scripts with applications behaviour and system prompts.
+   - `./src/`: Scripts with application's behaviour and system prompts.
 > [!NOTE]
 The content inside `./src/advisor/user_jobpost_JSON/`, `./reports/` and `./data/` is Git ignored (except for `./data/jobs_JSON/` which is the **database**) as it is private information that you should manage locally, you can change the `./.gitignore` file at your convenience.
    
         
 
 ### Troubleshooting
-- **Missing API Key**: Ensure `OPENROUTER_API_KEY` is correctly set in your `.env` file.
+- **Missing API Key**: Ensure `OPENROUTER_API_KEY/TAVILY_API_KEY` are correctly set in your `.env` file.
 - **Dependency Issues**: If running in a new environment, ensure you have executed the commands in **Step 3**.
-- **Virtual Environment Not Activated**: If you receive "module not found" errors, ensure your virtual environment is activated **(Step 2)**.
+- **Virtual Environment Not Activated**: If you receive "module not found" errors, ensure your virtual environment is activated **(Step 3)**.
 - **Absolute Paths**: For the Main Application (Job Advisor), ensure you provide an **absolute path** to the PDF file (instructions below). 
 
 
@@ -158,7 +154,7 @@ If you don't want to use your own resume you can look for sample resumes PDFs on
 This app receives the path to a **job posting PDF** that you provide (it can be whichever you want). 
    
 > [!TIP]
-If you need help converting an online job posting (e.g. from LinkedIn) into a PDF format you can save the page as a PDF using `CTRL + P` (or respective shortcut). Alternatively try online converters such as: [W2P](https://www.web2pdfconvert.com/). 
+If you need help converting an online job posting (e.g. from LinkedIn) into a PDF format you can save the job's page as a PDF using `CTRL + P` (or respective shortcut). Alternatively try online converters such as: [W2P](https://www.web2pdfconvert.com/). 
 
 Save the PDF **locally** in your computer as: `[Role] - [Employer Name]` (e.g. Full Stack Developer - Tech & Geeks Inc.), this will help you visualize your files in a clean and ordered way.
 

@@ -1,0 +1,30 @@
+{
+  "job_title": "Junior Full Stack Developer",
+  "company_name": "Express Scripts Canada",
+  "work_modality": "Not listed.",
+  "required_skills": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Node.js",
+    "React",
+    "SQL"
+  ],
+  "nice_have_skills": [
+    "Experience with Agile methodologies",
+    "Knowledge of healthcare industry standards"
+  ],
+  "experience_level": "0 - 2 years",
+  "education_requirements": "Bachelor's degree in Computer Science or related field",
+  "salary": "Not listed",
+  "key_responsibilities": [
+    "Develop and maintain web applications",
+    "Collaborate with cross-functional teams",
+    "Troubleshoot and debug applications",
+    "Participate in code reviews"
+  ],
+  "relevant_data": [
+    "Express Scripts Canada is a leader in health benefits management in Canada.",
+    "The company provides innovative pharmacy benefit management solutions, processing various health claims through advanced technology."
+  ]
+}

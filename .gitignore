@@ -1,25 +1,62 @@
 # Environments
 .env
+.env.*
 .envrc
-.venv
+.venv/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+*.pem
+*.key
 
 # Python artifacts
 __pycache__/
 *.py[cod]
 *$py.class
-venv/
-ENV/
+*.so
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.log
+pip-log.txt
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
 
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
 
 # Project specific logs and temporary outputs
 **/debug.txt
 
-# Personal data files
+# Data and reports
 data/jobs_postings/*
 !data/jobs_postings/.gitkeep
 
@@ -39,4 +76,3 @@ jobs_postings_original
 
 # Agents
 GEMINI.md
-
