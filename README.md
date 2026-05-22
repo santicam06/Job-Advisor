@@ -5,11 +5,11 @@ Designed for software developers, this app generates you an engaging report that
 
 
 LLMs used in this application:
-- **Arcee Trinity Large Thinking**
-- **Cohere Command R+ (08-2024)**
-- **OpenAI GPT-4o mini**
-- **Mistral AI Codestral 25.08**
-- **NVIDIA Nemotron 3 Nano 30B-A3B**
+- [Arcee Trinity Large Thinking](https://openrouter.ai/arcee-ai/trinity-large-thinking)
+- [Cohere Command R+ (08-2024)](https://openrouter.ai/cohere/command-r-plus-08-2024)
+- [OpenAI GPT-4o mini](https://openrouter.ai/openai/gpt-4o-mini)
+- [Mistral AI Codestral 25.08](https://openrouter.ai/mistralai/codestral-2508)
+- [NVIDIA Nemotron 3 Nano 30B-A3B](https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b)
 
 
 ## Setup Instructions
