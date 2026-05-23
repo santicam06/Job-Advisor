@@ -34,14 +34,19 @@ From this point on, make sure that your present working directory on your termin
 
 4. **Install Dependencies**:
    - Upgrade `pip` and install required libraries:
-     ```powershell
-     python -m pip install --upgrade pip
-     python -m pip install -r requirements.txt
-     ```
+   ```sh
+   python -m pip install --upgrade pip
+   python -m pip install -r requirements.txt
+   ```
 
 5. **Environment Configuration**:
+<<<<<<< HEAD
+   - Create a local `.env` file by copying the template file `.env.example`. This file contains all required API keys and configuration macros for the application, read it carefully:
+   ```sh
+=======
    - Create a local `.env` file by copying the template file `.env.example`. This file contains all required API keys and configuration macros for the application, read and set it carefully:
    ```powershell
+>>>>>>> 5b7e3950469c7424e9c04bb925d1d7a4dbf1f3eb
      # On Windows (Command Prompt)
      copy .env.example .env
      # On macOS/Linux or PowerShell
@@ -81,7 +86,7 @@ The content inside `./src/advisor/user_jobpost_JSON/`, `./reports/` and `./data/
 
 **Command**
 
-```powershell
+```sh
 # Windows
 python -m src.analysis.market_analysis
 # macOS/Linux
@@ -89,7 +94,7 @@ python3 -m src.analysis.market_analysis
 ```
 
 Optional verbose flag:
-```powershell
+```sh
 # Windows
 python -m src.analysis.market_analysis --verbose
 # macOS/Linux
@@ -114,7 +119,7 @@ Enriching the database will enhance the analysis of the LLM in charge of produci
 
 **Command**
 
-```powershell
+```sh
 # Windows
 python -m src.extract.resume_extract.resume_analyzer
 # macOS/Linux
@@ -122,7 +127,7 @@ python3 -m src.extract.resume_extract.resume_analyzer
 ```
 
 Optional verbose flag:
-```powershell
+```sh
 # Windows
 python -m src.extract.resume_extract.resume_analyzer --verbose
 # macOS/Linux
@@ -169,7 +174,7 @@ As well make sure you have uploaded ONE **PDF resume**.
  
 **Command**
 
-```powershell
+```sh
 # Windows
 python -m src.advisor.app_advisor "<path_to_job_posting>"
 # macOS/Linux
@@ -190,7 +195,7 @@ The path to the PDF must be an **absolute path**, note the quotes to wrap the pa
 
 
 Optional verbose flag:
-```powershell
+```sh
 # Windows
 python -m src.advisor.app_advisor "<path_to_job_posting>" --verbose
 # macOS/Linux
@@ -241,10 +246,10 @@ The application report was successfully written to the reports folder. Would you
 
 Once you are finished working with the application, you can deactivate the virtual environment to return to your global Python context:
 
-```powershell
+```sh
 # Terminal
 deactivate
 ```
 
 
-### Good luck in your job seeking 💪!�!�!
+### Good luck in your job seeking 💪.
