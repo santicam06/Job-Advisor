@@ -64,8 +64,9 @@ The content inside `./src/advisor/user_jobpost_JSON/`, `./reports/` and `./data/
 
 ### 🚨 Troubleshooting
 - **Missing API Key**: Ensure `OPENROUTER_API_KEY/TAVILY_API_KEY` are correctly set in your `.env` file.
-- **Dependency Issues**: If running in a new environment, ensure you have executed the commands in **Step 3**.
+- **Dependency Issues**: If running in a new environment, ensure you have executed the commands in **Step 3** onwards.
 - **Virtual Environment Not Activated**: If you receive "module not found" errors, ensure your virtual environment is activated **(Step 3)**.
+- **Persistent Environment Errors**: If you encounter any other unusual errors with your Python environment, manually delete the `.venv` folder and repeat the process starting from **Step 3**.
 - **Absolute Paths**: For the Main Application (Job Advisor), ensure you provide an **absolute path** to the PDF file (instructions below). 
 
 
