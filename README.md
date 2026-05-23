@@ -1,11 +1,11 @@
 ﻿# Job Advisor Pipeline
 
 LLMs used in this application:
-- **Arcee Trinity Large Thinking**
-- **Cohere Command R+ (08-2024)**
-- **OpenAI GPT-4o mini**
-- **Mistral AI Codestral 25.08**
-- **NVIDIA Nemotron 3 Nano 30B-A3B**
+- [Arcee Trinity Large Thinking](https://openrouter.ai/arcee-ai/trinity-large-thinking)
+- [Cohere Command R+ (08-2024)](https://openrouter.ai/cohere/command-r-plus-08-2024)
+- [OpenAI GPT-4o mini](https://openrouter.ai/openai/gpt-4o-mini)
+- [Mistral AI Codestral 25.08](https://openrouter.ai/mistralai/codestral-2508)
+- [NVIDIA Nemotron 3 Nano 30B-A3B](https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b)
 
 
 ## Setup Instructions
@@ -34,14 +34,14 @@ From this point on, make sure that your present working directory on your termin
 
 4. **Install Dependencies**:
    - Upgrade `pip` and install required libraries:
-   ```sh
-   python -m pip install --upgrade pip
-   python -m pip install -r requirements.txt
-   ```
+     ```powershell
+     python -m pip install --upgrade pip
+     python -m pip install -r requirements.txt
+     ```
 
 5. **Environment Configuration**:
-   - Create a local `.env` file by copying the template file `.env.example`. This file contains all required API keys and configuration macros for the application, read it carefully:
-   ```sh
+   - Create a local `.env` file by copying the template file `.env.example`. This file contains all required API keys and configuration macros for the application, read and set it carefully:
+   ```powershell
      # On Windows (Command Prompt)
      copy .env.example .env
      # On macOS/Linux or PowerShell
@@ -81,7 +81,7 @@ The content inside `./src/advisor/user_jobpost_JSON/`, `./reports/` and `./data/
 
 **Command**
 
-```sh
+```powershell
 # Windows
 python -m src.analysis.market_analysis
 # macOS/Linux
@@ -89,7 +89,7 @@ python3 -m src.analysis.market_analysis
 ```
 
 Optional verbose flag:
-```sh
+```powershell
 # Windows
 python -m src.analysis.market_analysis --verbose
 # macOS/Linux
@@ -114,7 +114,7 @@ Enriching the database will enhance the analysis of the LLM in charge of produci
 
 **Command**
 
-```sh
+```powershell
 # Windows
 python -m src.extract.resume_extract.resume_analyzer
 # macOS/Linux
@@ -122,7 +122,7 @@ python3 -m src.extract.resume_extract.resume_analyzer
 ```
 
 Optional verbose flag:
-```sh
+```powershell
 # Windows
 python -m src.extract.resume_extract.resume_analyzer --verbose
 # macOS/Linux
@@ -169,7 +169,7 @@ As well make sure you have uploaded ONE **PDF resume**.
  
 **Command**
 
-```sh
+```powershell
 # Windows
 python -m src.advisor.app_advisor "<path_to_job_posting>"
 # macOS/Linux
@@ -190,7 +190,7 @@ The path to the PDF must be an **absolute path**, note the quotes to wrap the pa
 
 
 Optional verbose flag:
-```sh
+```powershell
 # Windows
 python -m src.advisor.app_advisor "<path_to_job_posting>" --verbose
 # macOS/Linux
@@ -241,10 +241,10 @@ The application report was successfully written to the reports folder. Would you
 
 Once you are finished working with the application, you can deactivate the virtual environment to return to your global Python context:
 
-```sh
+```powershell
 # Terminal
 deactivate
 ```
 
 
-### Good luck in your job seeking 💪.
+### Good luck in your job seeking 💪!�!�!
