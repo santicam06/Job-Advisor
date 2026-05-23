@@ -1,11 +1,11 @@
 ﻿# Job Advisor Pipeline
 
 LLMs used in this application:
-- [Arcee Trinity Large Thinking](https://openrouter.ai/arcee-ai/trinity-large-thinking)
-- [Cohere Command R+ (08-2024)](https://openrouter.ai/cohere/command-r-plus-08-2024)
-- [OpenAI GPT-4o mini](https://openrouter.ai/openai/gpt-4o-mini)
-- [Mistral AI Codestral 25.08](https://openrouter.ai/mistralai/codestral-2508)
-- [NVIDIA Nemotron 3 Nano 30B-A3B](https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b)
+- **Arcee Trinity Large Thinking**
+- **Cohere Command R+ (08-2024)**
+- **OpenAI GPT-4o mini**
+- **Mistral AI Codestral 25.08**
+- **NVIDIA Nemotron 3 Nano 30B-A3B**
 
 
 ## Setup Instructions
@@ -40,13 +40,8 @@ From this point on, make sure that your present working directory on your termin
    ```
 
 5. **Environment Configuration**:
-<<<<<<< HEAD
    - Create a local `.env` file by copying the template file `.env.example`. This file contains all required API keys and configuration macros for the application, read it carefully:
    ```sh
-=======
-   - Create a local `.env` file by copying the template file `.env.example`. This file contains all required API keys and configuration macros for the application, read and set it carefully:
-   ```powershell
->>>>>>> 5b7e3950469c7424e9c04bb925d1d7a4dbf1f3eb
      # On Windows (Command Prompt)
      copy .env.example .env
      # On macOS/Linux or PowerShell
