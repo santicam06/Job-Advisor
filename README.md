@@ -8,7 +8,7 @@ LLMs used in this application:
 - **NVIDIA Nemotron 3 Nano 30B-A3B**
 
 
-## Setup Instructions
+## ⚙️ Setup Instructions
 
 Before running the application, follow these steps:
 
@@ -62,7 +62,7 @@ The content inside `./src/advisor/user_jobpost_JSON/`, `./reports/` and `./data/
    
         
 
-### Troubleshooting
+### 🚨 Troubleshooting
 - **Missing API Key**: Ensure `OPENROUTER_API_KEY/TAVILY_API_KEY` are correctly set in your `.env` file.
 - **Dependency Issues**: If running in a new environment, ensure you have executed the commands in **Step 3**.
 - **Virtual Environment Not Activated**: If you receive "module not found" errors, ensure your virtual environment is activated **(Step 3)**.
@@ -77,7 +77,7 @@ The content inside `./src/advisor/user_jobpost_JSON/`, `./reports/` and `./data/
 **Reminder:** All the following terminal commands you'll see must be executed from the root of the application `./Job-Advisor`.
 
 
-## Phase 1: Market Analysis Report
+## 📄 Phase 1: Market Analysis Report
 
 **Command**
 
@@ -110,7 +110,7 @@ This writes detailed debug logs to `./src/analysis/debug.txt`.
 
 Enriching the database will enhance the analysis of the LLM in charge of producing the Market Analysis Report, new files added will be automatically commited only **locally**, when running the phase.
 
-## Phase 2: Resume Comparison
+## ⚖️ Phase 2: Resume Comparison
 
 **Command**
 
@@ -149,7 +149,7 @@ If you don't want to use your own resume you can look for sample resumes PDFs on
 
 
 
-## Job Advisor (end-user usage)
+## 👨‍🏫 Job Advisor (end-user usage)
 
 This app receives the path to a **job posting PDF** that you provide (it can be whichever you want). 
    
