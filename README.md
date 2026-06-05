@@ -10,7 +10,9 @@
 - [NVIDIA Nemotron 3 Nano 30B-A3B](https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b)
 
 ## APIs used:
-- [Tavily Search API](https://tavily.com/)
+- [Tavily Search API](https://tavily.com/): Enriches job postings with real-time web search data about companies.
+- [GitHub API](https://docs.github.com/en/rest): Facilitates community-driven database enrichment (via Vercel Proxy).
+
 
 ## ⚙️ Setup Instructions
 
