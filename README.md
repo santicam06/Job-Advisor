@@ -9,6 +9,8 @@
 - [Mistral AI Codestral 25.08](https://openrouter.ai/mistralai/codestral-2508)
 - [NVIDIA Nemotron 3 Nano 30B-A3B](https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b)
 
+## APIs used:
+- [Tavily Search API](https://tavily.com/)
 
 ## ⚙️ Setup Instructions
 
