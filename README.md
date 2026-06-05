@@ -1,11 +1,17 @@
 ﻿# Job Advisor Pipeline
 
-LLMs used in this application:
-- **Arcee Trinity Large Thinking**
-- **Cohere Command R+ (08-2024)**
-- **OpenAI GPT-4o mini**
-- **Mistral AI Codestral 25.08**
-- **NVIDIA Nemotron 3 Nano 30B-A3B**
+👨‍🏫 AI-powered application that provides a useful report with insights for how to tailor your professional profile in terms of a job posting you provide.
+
+## LLMs used in this application:
+- [Arcee Trinity Large Thinking](https://openrouter.ai/arcee-ai/trinity-large-thinking)
+- [Cohere Command R+ (08-2024)](https://openrouter.ai/cohere/command-r-plus-08-2024)
+- [OpenAI GPT-4o mini](https://openrouter.ai/openai/gpt-4o-mini)
+- [Mistral AI Codestral 25.08](https://openrouter.ai/mistralai/codestral-2508)
+- [NVIDIA Nemotron 3 Nano 30B-A3B](https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b)
+
+## APIs used in this application:
+- **Tavily Search API**: Enriches job postings with real-time web search data about companies.
+- **GitHub API**: (via Vercel Proxy) Facilitates community-driven database enrichment.
 
 
 ## Setup Instructions
