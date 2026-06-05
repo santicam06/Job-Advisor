@@ -1,6 +1,8 @@
 ﻿# Job Advisor Pipeline
 
-LLMs used in this application:
+👨‍🏫 AI-powered application that provides a useful report with insights for how to tailor your professional profile in terms of a job posting you provide.
+
+## LLMs used in this application:
 - [Arcee Trinity Large Thinking](https://openrouter.ai/arcee-ai/trinity-large-thinking)
 - [Cohere Command R+ (08-2024)](https://openrouter.ai/cohere/command-r-plus-08-2024)
 - [OpenAI GPT-4o mini](https://openrouter.ai/openai/gpt-4o-mini)
