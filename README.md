@@ -60,7 +60,7 @@ Always **copy** the template. Do not rename `.env.example` directly, as it must 
 
 6. **Main Directories Glossary**:
    - `./api/`: Vercel proxy integration logic for user contributions.
-   - `./data/`: Contains subdirectories for input documents and application's database.
+   - `./data/`: Contains subdirectories for input documents and **application's database `data\jobs_JSON`**.
    - `./reports/`: Target directory for LLM-generated Markdown reports.
    - `./src/`: Scripts with application's behaviour and system prompts.
 > [!NOTE]
