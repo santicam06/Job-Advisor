@@ -13,6 +13,12 @@
 - [Tavily Search API](https://tavily.com/): Enriches job postings with real-time web search data about companies.
 - [GitHub API](https://docs.github.com/en/rest): Facilitates community-driven database enrichment (via Vercel Proxy).
 
+## *Behind the scenes 🎥*
+If you want to comprehend how do these LLMs and APIs interact among, as well as the full **orchestration workflow** please consult this [page](https://github.com/santicam06/Job-Advisor/releases/tag/v1.0.0).
+
+<br>
+█████████████████████████████████████████████████████████████████████████████████████████
+
 
 ## ⚙️ Setup Instructions
 
